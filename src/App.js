@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 //const {apiKey} = 'f3ae96fe-dca8-41a5-a6a9-74fe7303b53c';
 const api = 'https://fnbr.co/api/shop?';
 
@@ -99,6 +100,7 @@ class shopItems extends React.Component {
               </li>
             ))}
             <div className="title"><a href="https://twitter.com/JacobLucado" target="_about">Code Jacob-Lucado</a></div>
+            
             <br></br>
             <br></br>
             <br></br>

@@ -29,7 +29,11 @@ body::-webkit-scrollbar-thumb {
   border: 0px solid #2980b9;  /* creates padding around scroll thumb */
   height: 5px;
 }
-
+iframe {position:absolute;
+  z-index:1;
+  top:0px;
+  left:0px;
+}
 @-webkit-keyframes animate {
 	from {background-position:0 0;}
 	to {background-position: 500px 0;}
