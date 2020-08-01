@@ -67,8 +67,10 @@ class shopItems extends React.Component {
     }
     else {
       return (
-        <div className="container">        
+        <div className="container">  
+        <div className="title1"><a href="https://glexservices.com">GlexServices.com</a></div>      
           <ul className="grid">
+          
             <div className="title">Featured Items</div>
             {daily.map(item => (
               <li className="card" style={this.rarityChecker(item.rarity)} key={item.name}>
@@ -100,6 +102,7 @@ class shopItems extends React.Component {
               </li>
             ))}
             <div className="title"><a href="https://twitter.com/JacobLucado" target="_about">Code Jacob-Lucado</a></div>
+            <div className="title"><a href="https://twitter.com/GlexServicess" target="_about">Code Glex</a></div>
             
             <br></br>
             <br></br>
